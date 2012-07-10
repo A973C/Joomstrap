@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="2.5" type="template" method="upgrade">
+	<name>Joomstrap</name>
+	<creationDate>2012-07-07</creationDate>
+	<author>A973C</author>
+	<copyright>Copyright © A973C a973c.com</copyright>
+	<authorEmail>your.name@example.com</authorEmail>
+	<authorUrl>http://www.a973c.com</authorUrl>
+	<version>1.0.0</version>
+	<description><![CDATA[
+		<h1>templatename</h1>
+		<p><img src="../templates/joomstrap/template_preview.png" /></p>
+		<h2>Module positions</h2>
+		<ol>
+			<li>header</li>
+			<li>menu</li>
+			<li>footer</li>
+			<li>debug</li>
+		</ol>
+		<p>Created by <a href="http://www.a973c.com" target="_blank">A973C | a973c.com</a>.</p>
+	]]></description>
+	
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<filename>apple-touch-icon-57x57.png</filename>
+		<filename>apple-touch-icon-72x72.png</filename>
+		<filename>apple-touch-icon-114x114.png</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>offline.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	
+	<languages folder="language">
+		<language tag="fr-FR">fr-FR.tpl_templatename.ini</language>
+		<language tag="en-GB">en-GB.tpl_templatename.ini</language>
+	</languages>
+	
+	<positions>
+		<position>bottom-1</position>
+		<position>bottom-2</position>
+		<position>bottom-3</position>
+		<position>maintop</position>
+		<position>login</position>
+		<position>logo</position>
+		<position>menu</position>
+		<position>footer</position>
+		<position>debug</position>
+	</positions>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="FIELD_SPACER_HEADER_DESC" type="spacer" hr="false" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

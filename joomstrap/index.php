@@ -1,20 +1,15 @@
 <?php  
 /*------------------------------------------------------------------------
-# author    your name or company
-# copyright Copyright © 2011 example.com. All rights reserved.
+# author    A973C
+# copyright Copyright © 2012 a973c.com. All rights reserved.
 # @license  http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
-# Website   
-http://www.example.com
+# Website   http://www.a973c.com
 -------------------------------------------------------------------------*/
 
 defined( '_JEXEC' ) or die; 
-// variables$app = JFactory::getApplication();
 $doc = JFactory::getDocument();
 $user =& JFactory::getUser();
- //$params = &$app->getParams();
  $config =& JFactory::getConfig();
- //$pageclass = $params->get('pageclass_sfx');
- //$tpath = $this->baseurl.'/templates/'.$this->template;
  $tpath = "/templates/joomstrap";
 $this->setGenerator(null);
 // load sheets and scripts
